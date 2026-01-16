@@ -8,7 +8,7 @@ Running the command 'flaghasher' prints the md5 hash of the flag /root/flag.txt.
 
 The shell environment we land in is highly restriced, we cannot change directories, or reference files in other directories.
 
-To bypass this, we can simply spawn a new shell in the terminal by typing **bash**
+To bypass rbash (restricted bash), we can simply spawn a new shell in the terminal by typing **bash**.
 
     ctf-player@pico-chall$ ls
     ctf-player@pico-chall$ cd /usr/local/bin
